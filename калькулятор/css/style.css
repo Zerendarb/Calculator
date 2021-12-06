@@ -1,0 +1,35 @@
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    border: 3px solid rgba(255, 8, 8, 0.5);
+}
+.display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    border-bottom: 3px solid rgba(255, 8, 8, 0.5);
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.buttons>div {
+    border: 2px solid rgba(255, 8, 8, 0.5);
+}
+.button {
+    line-height: 80px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.equal {
+    background: rgb(0, 217, 255);
+    color: rgb(5, 5, 5);
+}
+.button:hover{
+    background: #a804ff;
+    color:rgb(0, 0, 0);
+    transition: 0.5s ease-in-out;
+}
